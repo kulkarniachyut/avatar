@@ -1,0 +1,38 @@
+<div>
+  <div class="PostSection col-sm-12">
+    <div class="spanHeading">
+      <h3>{{presentUser.content.name}} Community</h3>
+    </div>
+    <div class=" col-sm-12">
+      <form #postForm="ngForm" (ngSubmit)="localStoragePost(postForm)">
+        <div class="form-group">
+          <textarea name="comment" class="form-control" rows="3" id="comment" [(ngModel)]="comment" placeholder="Say Something {{presentUser.content.name}}"></textarea>
+        </div>
+        <div class="form-group">
+            <button type="submit" value="Submit" class="btn btn-primary pull-right">Post</button>
+          </div>
+      </form>
+    </div>
+  </div>
+  <div class="navSection col-sm-12 ">
+    <div class="matGroupContent">
+      <mat-tab-group class="col-sm-12">
+        <mat-tab label="Posts">
+          <div class="col-sm-12 tabContent mt-3">
+            <app-posts></app-posts>
+          </div>
+        </mat-tab>
+        <mat-tab label="eBay Choice-Hot! lableFont">
+          <div class="col-sm-12 tabContent">
+            <app-e-bay-choice></app-e-bay-choice>
+          </div>
+        </mat-tab>
+        <mat-tab label="Community Choice-Hot! ">
+          <div class="col-sm-12 tabContent">
+            <app-community-choice></app-community-choice>
+          </div>
+        </mat-tab>
+      </mat-tab-group>
+    </div>
+  </div>
+</div>

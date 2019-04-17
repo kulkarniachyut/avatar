@@ -1,0 +1,27 @@
+.item{
+  height: 60px;
+  width: 80px;
+  border-radius: 50%;
+}
+.buyItem{
+  background-color: #D2423F;
+}
+.sellItem{
+  background-color: #90B43C;
+}
+.reviewItem{
+  background-color: #EAB03D;
+}
+.itemContainer{
+  margin: 0 auto;
+}
+.spanCentered{
+  margin: auto
+}
+.centered{
+  text-align: center;
+  margin: 14px 0px;
+}
+.rating{
+  text-align: center;
+}

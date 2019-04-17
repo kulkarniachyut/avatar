@@ -1,0 +1,20 @@
+.suggestionBar{
+  margin:0 auto;
+}
+.objectData{
+  width: 150px;
+  text-align: center;
+  display: inline-block;
+}
+.avatarImage{
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+}
+.image{
+  cursor: pointer;
+  height: inherit;
+  width: inherit;
+  overflow: hidden;
+  border-radius:15%;
+}

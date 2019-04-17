@@ -1,0 +1,28 @@
+.carousel-item{
+  background-color: grey;
+}
+.avatarContainer{
+  margin: 200px auto;
+}
+.avatarContent{
+  bottom: 0;
+  margin: auto;
+}
+.avatar{
+  text-align: center;
+}
+.avatarImage{
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+}
+.image{
+  cursor: pointer;
+  height: inherit;
+  width: inherit;
+  overflow: hidden;
+  border-radius:15%;
+}
+.avatarDesc{
+  margin: 0 auto; 
+}

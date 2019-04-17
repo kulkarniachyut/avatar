@@ -1,0 +1,29 @@
+<div class="col-sm-12 avatarContainer">
+  <div class="avatarContent row">
+    <div class="avatar ml-1 mr-0 " *ngFor="let avatar of avatars" (click)="redirectToAvatar(avatar)">
+      <div *ngIf="avatar.serialNumber == selectedAvatar">
+        <div class=" avatarImageSelected">
+          <img class="image " src="{{avatar.image}}" alt="Image">
+        </div>
+        <div class="col-sm-12 avatarDesc">
+          <h5>{{avatar.content.name}} </h5>
+        </div>
+        <div class="col-sm-12 avatarPercent">
+            <h5>{{avatar.content.percentage}} %</h5>
+          </div>
+      </div>
+      <div *ngIf="avatar.serialNumber != selectedAvatar">
+        <div class=" avatarImageNotSelected">
+          <img class="image " src="{{avatar.image}}" alt="Image">
+        </div>
+        <div class="col-sm-12 avatarDesc">
+          <h5>{{avatar.content.name}} </h5>
+        </div>
+        <div class="col-sm-12 avatarPercent">
+          <h5>{{avatar.content.percentage}} %</h5>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

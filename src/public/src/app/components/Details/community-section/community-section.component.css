@@ -1,0 +1,25 @@
+.spanHeading{
+  text-align: center;
+}
+.avatarImage{
+  height: 30px;
+  width: 30px;
+  margin: 0 auto;
+}
+.image{
+  cursor: pointer;
+  height: inherit;
+  width: inherit;
+  overflow: hidden;
+  border-radius:15%;
+}
+.matGroupContent{
+  width: 100%;
+}
+.navSection{
+  margin-top: 50px;
+}
+.lableFont{
+  font-weight: bold;
+  color: black !important;
+}
